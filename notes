@@ -1,0 +1,20 @@
+google and microsoft login
+zod validations while signup and login
+mobile phone validations (otp) 
+
+
+86RYM8T4RS67D9ZFADBC48EH  => rajpoottony61@gmail.com
+
+
+YZL6LX9D86C9ANSNWUM7T321  => ranarajpootsaab420@gamil.com
+
+
+forgot password => enter email => findOne(email) => send email verification code also save in database(page.tsx) => accept code entered by user (route.ts) => search user through code => update password field => save user and redirect to login page 
+
+
+
+after calling submit function the values of input types should be empty in the form
+const [user, setUser] = useState({
+    email: "", password: ""
+})
+i want to empty user email and password field empty after submit handler
